@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css.css" />
+    </head>
+    <body>
+
+        <div id="sectionHome"> 
+            <div class="fluid-container"> 
+                <div class="row">
+                    <div class="col-12">
+                      <div class="bg-container d-flex flex-column justify-content-center">
+          
+                          <div class="card d-flex flex-column justify-content-center">
+                              <h1 class="main-heading"> Welcome </h1>
+                                <p class="main-des"> Click the button to register</p>
+                                       <div class=" d-flex flex-row justify-content-center"> 
+                               <button class="button" onclick="display('sectionDetail')"> Register Now</button>                </div>
+            </div>
+        </div>
+         </div>
+         </div>
+        </div>
+        </div>
+
+
+
+        <div id="sectionDetail">
+            <div class="fluid-container"> 
+                <div class="row"> 
+                    <div class="col-12"> 
+            <div class="bg-container">
+            <h1 class="main-heading-1" onclick="display('sectionHome')"> < </h1>
+            <div class="d-flex flex-row justify-content-center">
+            <div class="card-detail">
+
+                <div class="form-container"> 
+               <h1 class="main-head"> Registration Form</h1>
+
+
+               <form>   
+                <div class="input-group">
+                    <input type="text" placeholder="Name" required>
+                    </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="E-mail Address" required>
+                    </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Phone Number" required>
+                    </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Password" required>
+                    </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Confirm Password" required>
+                    </div>
+ 
+                <div class="input-group">
+                    <input type="text" placeholder="Country" required>
+                    </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="State" required>
+                    </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="District" required>
+                    </div>
+
+                <div class="input-container">
+                    <label>
+                        <input type="checkbox">  
+                        I agree to 
+                       
+
+                      <!-- Button trigger modal -->
+<button type="button" class="custon-button" data-toggle="modal" data-target="#exampleModal">
+  terms & conditions
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Terms & Conditions</h5>
+        
+      </div>
+      <div class="modal-body">
+        <p class="text-left""> 
+            Terms and Conditions <br />
+1. Acceptance of Terms<br />
+
+By registering and using this website, you agree to comply with and be bound by these Terms and Conditions. If you do not agree, please do not use this website.<br />
+
+2. User Registration
+Users must provide accurate and complete information during registration.<br />
+You are responsible for maintaining the confidentiality of your account credentials.<br />
+You must not create multiple fake accounts or impersonate another person.<br />
+3. Eligibility
+
+You must be at least 18 years old or have permission from a parent or guardian to use this website.<br />
+
+4. User Responsibilities<br />
+
+By using this website, you agree:<br />
+
+Not to use the platform for illegal or unauthorized activities.<br />
+Not to upload harmful, offensive, or misleading content.<br />
+Not to attempt to hack, disrupt, or damage the website.<br />
+5. Privacy Policy<br />
+
+Your personal information will be collected and used according to our Privacy Policy. By registering, you consent to such data usage.<br />
+
+6. Account Suspension or Termination<br />
+
+We reserve the right to suspend or terminate any account that violates these Terms and Conditions without prior notice.<br />
+
+7. Intellectual Property<br />
+
+All content, logos, text, images, and materials on this website are the property of the website owner and may not be copied or reused without permission.<br />
+
+8. Limitation of Liability<br />
+
+We are not responsible for:<br />
+
+Any loss of data or account access.<br />
+Technical issues or interruptions.<br />
+Damages resulting from misuse of the website.<br />
+9. Modifications to Terms<br />
+
+We may update these Terms and Conditions at any time. Continued use of the website after changes means you accept the updated terms.<br />
+
+10. Governing Law<br />
+
+These Terms and Conditions shall be governed by and interpreted according to the laws applicable in your country or state.<br />
+
+11. Contact Information<br />
+
+If you have any questions regarding these Terms and Conditions, please contact the website administrator.<br />
+        </p>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+                 
+                
+                    <!-- Button trigger modal -->
+<button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop">
+ Create Account
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="staticBackdropLabel">Account created</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable d-flex flex-column justify-content-center">
+    <div class="d-flex flex-row justify-content-center"> 
+  <img src="https://static.vecteezy.com/system/resources/previews/024/382/929/non_2x/green-check-mark-icon-logo-symbol-in-a-circle-tick-symbol-green-color-transparent-free-png.png" class="images" />
+</div>
+  <div>
+  <p class="acc-para"> Congratulations! your account has been create. Please log in with your credentials to get started.</p>
+ </div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Login to Get Started</button>
+      </div>
+    </div>
+  </div>
+</div>
+                
+            
+                 </div>
+                </div>
+               </form>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        
+        
+
+          <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+    </body>
+</html>

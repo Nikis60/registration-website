@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/020/978/578/non_2x/gradient-color-abstract-background-gradient-background-design-for-covers-wallpapers-branding-business-cards-social-media-website-others-you-can-use-the-gradient-texture-for-backgrounds-vector.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card{
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    margin: 500px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    border-color: white;
+    width: 200px;
+    border-width: 0px;
+    text-align: center;
+}
+
+.paragraph{
+    font-family: roboto;
+    margin: 20px;
+    font-size: 36px;
+}
+
+.card-detail{
+    background-color: white;
+    height: 660px;
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.main-head{
+    font-family: sans-serif;
+    padding: 10px;
+   
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    width: 100%;
+    padding:8px;
+    border: none;
+    border-bottom: 2px solid #00bcd4;
+    outline: none;
+}
+
+.input-group input:focus{
+    border-bottom: 2px solid#0072ff;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container{
+       padding: 20px;
+       border-radius: 10px;
+}
+
+.btn{
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.card-group{
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    margin: 180px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.images{
+    height: 85px;
+    width: 95px;
+}
+
+.heading-end{
+    font-family: roboto;
+    text-decoration: underline;
+    color: blue;
+    font-size: 20px;
+}
+
+.description{
+    color: black;
+}
+
+.custon-button{
+    background-color: transparent;
+    border-radius: 0px;
+    border-width: 0px;
+    text-decoration: underline;
+    color: blue;
+}
+
+.acc-para{
+    font-family: Roboto;
+    font-size: 28px;
+}
+
+
+#staticBackdropLabel{
+    text-align:center;
+}
